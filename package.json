@@ -3,7 +3,7 @@
 	"displayName": "Hugo Themer",
 	"description": "Extension to help you building Hugo templates",
 	"icon": "assets/hugo-themer.png",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.49.0"
 	},
@@ -18,6 +18,11 @@
 			"description": "version",
 			"url": "https://img.shields.io/github/package-json/v/estruyf/vscode-hugo-themer?color=green&label=vscode-hugo-themer&style=flat-square",
 			"href": "https://github.com/estruyf/vscode-hugo-themer"
+		},
+		{
+			"description": "Buy me a coffee",
+			"url": "https://img.shields.io/badge/Buy%20me%20a%20coffee-€%203-blue?logo=buy-me-a-coffee&style=flat-square",
+			"href": "https://www.buymeacoffee.com/zMeFRy9"
 		}
 	],
 	"categories": [
@@ -29,7 +34,7 @@
 		"url": "https://github.com/estruyf/vscode-hugo-themer"
 	},
 	"activationEvents": [
-		"*"
+		"onStartupFinished"
 	],
 	"main": "./out/extension.js",
 	"contributes": {},
@@ -42,16 +47,12 @@
 		"test": "node ./out/test/runTest.js"
 	},
 	"devDependencies": {
-		"@types/vscode": "^1.49.0",
-		"@types/glob": "^7.1.3",
-		"@types/mocha": "^8.0.0",
 		"@types/node": "^14.0.27",
-		"eslint": "^7.9.0",
+		"@types/vscode": "^1.49.0",
 		"@typescript-eslint/eslint-plugin": "^4.1.1",
 		"@typescript-eslint/parser": "^4.1.1",
-		"glob": "^7.1.6",
-		"mocha": "^8.1.3",
-		"typescript": "^4.0.2",
-		"vscode-test": "^1.4.0"
+		"eslint": "^7.9.0",
+		"glob": "^8.0.3",
+		"typescript": "^4.0.2"
 	}
 }
