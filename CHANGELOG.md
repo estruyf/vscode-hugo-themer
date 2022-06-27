@@ -1,5 +1,10 @@
 # Change Log
 
+### [1.1.0] - 27/06/2022
+
+- Support for `partialCached` added
+- Hover provider added to show the file reference
+
 ### [1.0.0] - 25/06/2022
 
 - Dependency updates
