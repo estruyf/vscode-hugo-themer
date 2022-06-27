@@ -8,6 +8,10 @@ This VSCode extension is created to make it easier to create and maintain [Hugo]
 
 ## Available functionalities
 
+### File references for partials
+
+When you hover over a `partial` or `partialCached` reference, the extension will show the full path of the partial file which you referenced.
+
 ### Go to definition for partials
 
 Allows you to quickly open the partials by `ctrl+click` or pressing `f12` or `right-click` -> click on `Go to definition`.
