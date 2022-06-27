@@ -1,4 +1,5 @@
 import * as vscode from 'vscode';
+import { HugoCompletionProvider } from './providers/HugoCompletionProvider';
 import { HugoDefinitionProvider } from './providers/HugoDefinitionProvider';
 import { HugoHoverProvider } from './providers/HugoHoverProvider';
 
@@ -13,6 +14,10 @@ export function activate(context: vscode.ExtensionContext) {
 	
 	context.subscriptions.push(
 		vscode.languages.registerHoverProvider(HTML_MODE, new HugoHoverProvider())
+	);
+
+	context.subscriptions.push(
+		vscode.languages.registerCompletionItemProvider(HTML_MODE, new HugoCompletionProvider(), ...["/", '"', "'"])
 	);
 
 	console.log(`${EXTENSION_NAME}: activated`);

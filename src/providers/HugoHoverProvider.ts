@@ -8,7 +8,7 @@ export class HugoHoverProvider implements HoverProvider {
     const file = await processLine(document, position, token);
 
     if (file) {
-      let lineText = document.lineAt(position.line).text;
+      const lineText = document.lineAt(position.line).text;
 
       const startIdx = lineText.indexOf("{{");
       const endIdx = lineText.indexOf("}}");

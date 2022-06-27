@@ -16,6 +16,12 @@ When you hover over a `partial` or `partialCached` reference, the extension will
 
 Allows you to quickly open the partials by `ctrl+click` or pressing `f12` or `right-click` -> click on `Go to definition`.
 
+### Path completion
+
+When creating partial references in your HTML files, you will have the ability to autocomplete the paths.
+
+![Autocomplete](./assets/path-completion.png)
+
 ## Feedback / issues / ideas
 
 Please submit them via creating an issue in the project repository: [issue list](https://github.com/estruyf/vscode-hugo-themer/issues).
