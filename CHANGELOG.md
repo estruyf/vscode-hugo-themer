@@ -1,5 +1,9 @@
 # Change Log
 
+### [1.2.0] - 27/06/2022
+
+- Added autocomplete functionality to partial paths
+
 ### [1.1.0] - 27/06/2022
 
 - Support for `partialCached` added
